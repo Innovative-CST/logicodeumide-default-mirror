@@ -29,6 +29,25 @@ SHA512: a303f825dbbc9f6e6f7559089da6135b47d689e816697452408a3268aaa35d1473847f87
 Description: Static libraries for attr
 Homepage: http://savannah.nongnu.org/projects/attr/
 
+Package: bash
+Essential: yes
+Installed-Size: 4368
+Maintainer: Joshua Kahn <tom@termux.dev>
+Architecture: arm
+Version: 5.3.20
+Replaces: bash-dev
+Depends: libandroid-support, libiconv, readline (>= 8.3), termux-tools
+Recommends: command-not-found, bash-completion
+Breaks: bash-dev
+Filename: pool/main/b/bash/bash_5.3.20_arm.deb
+Size: 930108
+MD5sum: 434d434e5d8e7dee9edd73b432afa82d
+SHA1: d2488a9be213d7685bad8bf27aebc9018cf18c4e
+SHA256: 99af83c2f2d1eb6f7caae2109135be89c3032a30b8ff38dd2f5252bd86d39e56
+SHA512: 044ec075d95e016f249af78fe5a42272bb1d8d2daf41ff7ad100fbbaf251d4274901b83915b75bfc5ef0ea0f5076cb634dd08fa6ea7aba6955631cd2857443a2
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+
 Package: blk-utils
 Installed-Size: 664
 Maintainer: @termux
@@ -156,6 +175,20 @@ SHA512: 68a5dcde4739c872c8c8a87e90e4a8a103bf5a1b5c78366a9123478f38dc80fab61f78eb
 Description: Small POSIX-compliant implementation of /bin/sh
 Homepage: http://gondor.apana.org.au/~herbert/dash/
 
+Package: debianutils
+Installed-Size: 108
+Maintainer: @termux
+Architecture: arm
+Version: 5.24
+Filename: pool/main/d/debianutils/debianutils_5.24_arm.deb
+Size: 16308
+MD5sum: 635cd70f0a97a5254d0d1befad0b0bec
+SHA1: 57dd133869022360cd67a9d3f65d1e00d87dfe46
+SHA256: def62bcf4c80f6bee06aed1a774d113319a7499e670a42bf6c86168eb141e2a3
+SHA512: c91f66ee64fa9e289d92e3a013bf7e648a2e8392477e340a24a13af8d777c3b94f1f0c86e59537dd1b3fa13d54a36c8a9d2f6d23557fadb2e1535241e7b4bc44
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
+Homepage: https://packages.debian.org/debianutils
+
 Package: dialog
 Installed-Size: 204
 Maintainer: @termux
@@ -202,6 +235,35 @@ SHA512: ea63377595ec31361d1bd76f26d2ccb3cef27fe3cf0aa159dd59b251568e4a920d85e3f6
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 Homepage: https://www.gnu.org/software/diffutils/
 
+Package: dos2unix
+Installed-Size: 328
+Maintainer: @termux
+Architecture: arm
+Version: 7.5.7
+Depends: libandroid-support
+Filename: pool/main/d/dos2unix/dos2unix_7.5.7_arm.deb
+Size: 63528
+MD5sum: a9cb1804b20a033df6e1d5692c1da282
+SHA1: d574376fb6f74f36934e3f251a35003b3cd1301b
+SHA256: 2c14107f2b213416f3da17b3c3409f117588fd194e20425179c01fa76fdc1ebb
+SHA512: 3ed41d3d5820010fc1bde0fc0cc19588e45b6bf5b015245c7e19337e5cdb3bea539c96550d88f43618a66c1979c8acd6a06951ff3a16512d7961e333a1897e04
+Description: Converts between DOS and Unix text files
+Homepage: https://waterlander.net/dos2unix/
+
+Package: ed
+Installed-Size: 164
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Architecture: arm
+Version: 1.22.6
+Filename: pool/main/e/ed/ed_1.22.6_arm.deb
+Size: 40788
+MD5sum: f0af415a00752654337d2e9f8ed5c8e3
+SHA1: ae457c70be3e8157891e8d4407e80011a4e95c93
+SHA256: 2be2b2897b2b3104c42d9995a9c4dfb72f24434047911168a29cb8bda97d3ac5
+SHA512: 5f9bef5e76778d361112d73f10e2bbb0916c181d7e49165161a72cf36c4e36e2cdcaa3a2405ff357395c762807ee045df4f56c61b820de759590808c55e3ca7e
+Description: Classic UNIX line editor
+Homepage: https://www.gnu.org/software/ed/
+
 Package: fdisk
 Installed-Size: 344
 Maintainer: @termux
@@ -216,6 +278,23 @@ SHA256: 16f7b196df2dc320c24df16012fec0833cfacd2c11bd307d0a25159a409f7123
 SHA512: 298c9571abb28098c6405addd071d4130e4d7514a2c5eca5a83114356723bc12fc16bc2bb8c655f4bf9791e706a3e7322994bfc1de6aeba0a14caf7f0e6bf193
 Description: Utilities to manipulate disk partition tables
 Homepage: https://en.wikipedia.org/wiki/Util-linux
+
+Package: file
+Installed-Size: 68
+Maintainer: @termux
+Architecture: arm
+Version: 5.48-3
+Replaces: file-dev
+Depends: libmagic (= 5.48-3)
+Breaks: file-dev
+Filename: pool/main/f/file/file_5.48-3_arm.deb
+Size: 16852
+MD5sum: f4ea22a8a8f53e1ef2b515e0b9c35e56
+SHA1: 57d604f1e87ef11a6f874a0db6a22afd02a96359
+SHA256: dc08e74265c9e6ce56d7d4b4760c011f36d8da36791ea7091e49bd426b264492
+SHA512: 424d156d658f33bd86658d4f764258b60385174aad6ce9abd5856ad9ac4cfc3bf1439d908dbd4be7e54f004622b7285b68a04617d968d447b24baa43c32bfb17
+Description: Command-line tool that tells you in words what kind of data a file contains
+Homepage: https://darwinsys.com/file/
 
 Package: findutils
 Essential: yes
@@ -311,6 +390,22 @@ SHA256: 1c848dc6b12f567ea55dc720a23abd424934d3b30fda76f9a5fee0be029c125c
 SHA512: 6b321e844bd3c4c2192c24ddba95289fb58376ed4631660970a14be526ed5e33757317db32c0b70ea040c40c2d25f03369b2b31d7991755d39f04080de7fcddf
 Description: Utility converting between different character encodings
 Homepage: https://www.gnu.org/software/libiconv/
+
+Package: inetutils
+Installed-Size: 856
+Maintainer: @termux
+Architecture: arm
+Version: 2.8-1
+Depends: readline
+Suggests: whois
+Filename: pool/main/i/inetutils/inetutils_2.8-1_arm.deb
+Size: 211284
+MD5sum: 26f24c01456ad3d23c7dde3bda47c41f
+SHA1: d913cf445e8135feb35b4003a08afd8449109c26
+SHA256: d65fc968ef50819c926ef1ed2b0ab845b8399cd3c3c41166a289fe50b51a0fdf
+SHA512: 6c9cb0f366c396c2a135f8c77255a563c1ed5dad17efeddfd1f8f5c8d7c0988fc597047bc05f9d076cfc033c482475497b93e3dd2fa1a4e57875206f98ea8270
+Description: Collection of common network programs
+Homepage: https://www.gnu.org/software/inetutils/
 
 Package: less
 Essential: yes
@@ -433,6 +528,37 @@ SHA256: a04da16aa1b4ae697c709d05bc36df18c4745ff4f1a54986c3d2665793581991
 SHA512: 29b2eef7470b6d47f26dffc9c6b15b7120fd9f575a6f23f2e2163a94c59a804193dd381fe89da6457e522a0bbb46c37bf2bc9c6a4ee6568b960a039a28d5729a
 Description: Android fork of libselinux, an SELinux userland library
 Homepage: https://selinuxproject.org
+
+Package: libandroid-shmem
+Installed-Size: 68
+Maintainer: @termux
+Architecture: arm
+Version: 0.7
+Replaces: libandroid-shmem-dev
+Breaks: libandroid-shmem-dev
+Filename: pool/main/liba/libandroid-shmem/libandroid-shmem_0.7_arm.deb
+Size: 7028
+MD5sum: 044f0cfd492685dc7828c162467b9edc
+SHA1: db9616386e3c33959adf3a76020697ba10d4a0cb
+SHA256: 13b7c808408c23107b9ecd92a494170aa536863c3f6d67f9b824fcd8818c99c2
+SHA512: 577dcb2432bc2673ebb09fa0a42b02ffcdab01020074f9cdaafda3b0aa48952eab3bbb3593fb576c680e2b388c4faccbcd2ae1ab17aa45137d3d27275f3dbc1d
+Description: System V shared memory emulation on Android using ashmem
+Homepage: https://github.com/termux/libandroid-shmem
+
+Package: libandroid-shmem-static
+Installed-Size: 40
+Maintainer: @termux
+Architecture: arm
+Version: 0.7
+Depends: libandroid-shmem (= 0.7)
+Filename: pool/main/liba/libandroid-shmem-static/libandroid-shmem-static_0.7_arm.deb
+Size: 5656
+MD5sum: 96bcead8923df57f106223f4209e57e1
+SHA1: c9b7aa4671856241fbe31336e0effd02d5562431
+SHA256: 42f4649ca8da5df3d004306e4f65a70cb972506ce83a1a1843b44173f1aebf5b
+SHA512: 3772f43a717b5b0fb85c8d45b4829f079e9653a3e8cbc0332698291078b75c772106a7aa9846e7cbc049c19fa5b8a716738f036b4e171f6f05653bf8cc96f0a7
+Description: Static libraries for libandroid-shmem
+Homepage: https://github.com/termux/libandroid-shmem
 
 Package: libandroid-support
 Essential: yes
@@ -686,6 +812,38 @@ SHA512: 32993e953220528b7a6217b2f45cb00a9a9e132c2d15ecce860dd319c97be04e6c4b2cbe
 Description: Static libraries for liblzma
 Homepage: https://tukaani.org/xz/
 
+Package: libmagic
+Installed-Size: 10740
+Maintainer: @termux
+Architecture: arm
+Version: 5.48-3
+Replaces: file (<< 5.48-2)
+Depends: zlib
+Breaks: file (<< 5.48-2)
+Filename: pool/main/libm/libmagic/libmagic_5.48-3_arm.deb
+Size: 392460
+MD5sum: d770d2e8cc253221509a537eaff1a6aa
+SHA1: 89fc24a65ddac9747ee8a1b736f235f77292e6a6
+SHA256: 99523a34494efdcb26b44e2c7039ab1420646ba704c69e19c6660aff8d122858
+SHA512: 2ab0bcb7e72dfec48778b3c0beacc525ebdf41cefa5de62a00e9daac97ae53fdac476972c26a9bb1880cc64c1c82fb09321260fe9dbccb7200c0652cdf287929
+Description: File type identification library
+Homepage: https://darwinsys.com/file/
+
+Package: libmagic-static
+Installed-Size: 200
+Maintainer: @termux
+Architecture: arm
+Version: 5.48-3
+Depends: libmagic (= 5.48-3)
+Filename: pool/main/libm/libmagic-static/libmagic-static_5.48-3_arm.deb
+Size: 66080
+MD5sum: 02143098d18c90f1f00be3062926f9ae
+SHA1: 93670ea144420af2dc63d5c02a5f4bc0e78fb856
+SHA256: 3f5976f5559594b0e1e8fdfc459a0747ebe346323aafa5d60b9c8af0e679e765
+SHA512: e3e056294b056493d55a3225ceb3767c7b1da76f81970e16d1173f4f2f88b0bd36543db82dc1a8058c2536cb0b1c3716958c51476824d92665deb5892a476ead
+Description: Static libraries for libmagic
+Homepage: https://darwinsys.com/file/
+
 Package: libmount
 Installed-Size: 376
 Maintainer: @termux
@@ -873,6 +1031,66 @@ SHA512: b6b928d8a38fea1d8c569a5acc22132814b8ec8ad4b6da7b3b9df210bba10f37d1d2cb83
 Description: Static libraries for libssh2
 Homepage: https://www.libssh2.org
 
+Package: libtalloc
+Installed-Size: 160
+Maintainer: @termux
+Architecture: arm
+Version: 2.5.0
+Replaces: libtalloc-dev
+Breaks: libtalloc-dev
+Filename: pool/main/libt/libtalloc/libtalloc_2.5.0_arm.deb
+Size: 32116
+MD5sum: 0eb84f08e906354c3f3bc656474b2f4f
+SHA1: 8c802c5c9bb5fc6c12942d141c74810b6559a2da
+SHA256: b33658acb84eb730e6411f51910dbc3f760eb27997d868f9de01339e486e33f3
+SHA512: bbd17059e586174cd4e6d75d65f98a7b935d9ded5386f8e13056d6065ed9f3ef3f60554472f497510e22a79eff9be0984abfe724f6d8627f64bbee6411d8dc54
+Description: Hierarchical, reference counted memory pool system with destructors
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+
+Package: libtalloc-static
+Installed-Size: 76
+Maintainer: @termux
+Architecture: arm
+Version: 2.5.0
+Depends: libtalloc (= 2.5.0)
+Filename: pool/main/libt/libtalloc-static/libtalloc-static_2.5.0_arm.deb
+Size: 10216
+MD5sum: 93b2a2b2acfe99a7df5409683d681517
+SHA1: 875a84d3f055c937161c74e84116e2bd693f28cf
+SHA256: 98139258e9037078f6dde0a8ba85b6bddddcddf706cec6a1d4d39ca3fdd5b324
+SHA512: efc384cb97e095c7a715bd81e6783b95a6ffdc83cc030dd722b936eca867160d81afeaf49353d4e77352f1621a05c3178f305b72ee5553f1c859cba3e12a911c
+Description: Static libraries for libtalloc
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+
+Package: libtirpc
+Installed-Size: 496
+Maintainer: @termux
+Architecture: arm
+Version: 1.3.8
+Filename: pool/main/libt/libtirpc/libtirpc_1.3.8_arm.deb
+Size: 117840
+MD5sum: 42b4375b41c22054fa7f38b41b816bbf
+SHA1: 3c99a37c468599d77d337586b518985255ca02dd
+SHA256: 12b474dd3766830d2b1f248da4252ea6f584e6bbb00bbc90e4d9942f989101f8
+SHA512: 63326d767c398265c189d3855b42d4dd5775d8146837cf0e8190f36600bf6238e521cfc8833ecaf070b51475ead5cca63f35efc91a8bed72f230ecb944703d66
+Description: Transport Independent RPC library
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
+Package: libtirpc-static
+Installed-Size: 252
+Maintainer: @termux
+Architecture: arm
+Version: 1.3.8
+Depends: libtirpc (= 1.3.8)
+Filename: pool/main/libt/libtirpc-static/libtirpc-static_1.3.8_arm.deb
+Size: 62200
+MD5sum: 9f2d5f375844b6da06e4dd679b5ce465
+SHA1: 10eb2e795d9600c659741f817171c5272336ef13
+SHA256: 768877a12533f20ef0129b098a47ad9bbb4ab329c72dd3cc23bfc33da298f247
+SHA512: e3d5463bff0a71f47580137583cc88592e070a27f0d335a23992dccfe07e91329356eac8b308c1328520032f6025ab948dff792d562595663262658835dbaaf7
+Description: Static libraries for libtirpc
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
 Package: libuuid
 Installed-Size: 76
 Maintainer: @termux
@@ -890,6 +1108,36 @@ SHA512: 9b1ca5bd5d62e8455eab9f98c6f3b74421c80123380ec9e2707811cd501374ccd3f31eab
 Description: Library for handling universally unique identifiers
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 
+Package: lsof
+Installed-Size: 328
+Maintainer: @termux
+Architecture: arm
+Version: 4.99.7
+Depends: libandroid-support, libtirpc
+Filename: pool/main/l/lsof/lsof_4.99.7_arm.deb
+Size: 118056
+MD5sum: 4c51d4e51afb43591e24919fbef5a09e
+SHA1: e7218e5c041be081f764012d6d588d3f24f6e445
+SHA256: e588e97f0e8c7d38f947e381a0a1cb48e77eaf8d74b3668135d81083573ebd89
+SHA512: 2f28af396cc5a2acc4c3a7d3bf4efd2f3f9333a497c5c185dcdc3dd86a360df32e8b0635b9a2f22463a3e2a36d829d2614a1bac04cca9d690c80c9355a4b6bd1
+Description: Lists open files for running Unix processes
+Homepage: https://github.com/lsof-org/lsof
+
+Package: lsof-static
+Installed-Size: 180
+Maintainer: @termux
+Architecture: arm
+Version: 4.99.7
+Depends: lsof (= 4.99.7)
+Filename: pool/main/l/lsof-static/lsof-static_4.99.7_arm.deb
+Size: 52388
+MD5sum: 08a0671d3babb658e8753d609ba19a07
+SHA1: d9e13086e266442f7712974269cbedca041ccdae
+SHA256: 2a4c23644c269cb2615f65c74ca7a915d4a01a7b3a3197b62ce1af33dea9be50
+SHA512: 9f3be2780bd83e0863a92ad7f458a44c7a874e38713b220b8eedfa86d74445cde79e18abc2b837354532923d5023ea39fa238c17d08b53fecdda56205775ce32
+Description: Static libraries for lsof
+Homepage: https://github.com/lsof-org/lsof
+
 Package: mount-utils
 Installed-Size: 448
 Maintainer: @termux
@@ -905,6 +1153,21 @@ SHA256: 72cdbe154616cdde8cf93fea19881377ae2c64310ccdcd9b3583603a79033f16
 SHA512: f1588fd09a66e93f10cb8096c7d8a055ba133c816500e423ee8b575ecaa6fb251177fe8be9b0706936f049d1ed91c513fb12a0786105690404fad75212414fb4
 Description: Utilities for (un)mounting filesystems
 Homepage: https://en.wikipedia.org/wiki/Util-linux
+
+Package: nano
+Installed-Size: 924
+Maintainer: @termux
+Architecture: arm
+Version: 9.3
+Depends: libandroid-support, ncurses, libmagic
+Filename: pool/main/n/nano/nano_9.3_arm.deb
+Size: 229284
+MD5sum: 3507757b2c0611b45e689f4d5bda961a
+SHA1: 6883357655d151da8fd5c79bcdc1547aaee03493
+SHA256: 5555aa2aabd7ea1d98b4597886c8930ed07300409dab08c393f48574b6ec9299
+SHA512: 7a8207988f5f107caf64d4916d57e1ff7d81a7cacd0f0ba00a671dbd621a9aa785e563e4da4a5b38def4fc10d000cf7a9f7a9cec5b8d53f429a5341c4a68e6bf
+Description: Small, free and friendly text editor
+Homepage: https://www.nano-editor.org/
 
 Package: ncurses
 Installed-Size: 1472
@@ -984,6 +1247,20 @@ SHA512: cfeec0bd7b84749e326556d28aabf7983c743772a17c1e88e41a1ddeee10fc53120fd287
 Description: Tools for working with terminals
 Homepage: https://invisible-island.net/ncurses/
 
+Package: net-tools
+Installed-Size: 428
+Maintainer: @termux
+Architecture: arm
+Version: 2.10.0-1
+Filename: pool/main/n/net-tools/net-tools_2.10.0-1_arm.deb
+Size: 105904
+MD5sum: e04401e8c191e846156ff4c8265702c1
+SHA1: be29dce77a287dae50e3caea2088674bd622ab91
+SHA256: 0c7be457a338b1837ac5952d9c60cd712a1aa98baeefda5344c13935c6069725
+SHA512: 29f27588e2a3f1788f3d4442fe8e5894c65a62e8a1ca486266269cf1578281a0314fcac8880227b3259c09d56ced0450eb2f8ea212de613aaf4e38d1ef5d24b2
+Description: Configuration tools for Linux networking
+Homepage: http://net-tools.sourceforge.net/
+
 Package: openssl
 Installed-Size: 5816
 Maintainer: @termux
@@ -1031,6 +1308,20 @@ SHA256: fb97efd5127e5b29aa3cfb3e1daf506c2b556e6d00294940256ae65b3877a5d2
 SHA512: d9bae7c520a079abe143fec2dcfc68ee82492010f3eff60469ee786a841520234a8f76e4fb592349db23c6138c36eba998ecaa7105dfda0bc5bfcd9849390ff4
 Description: The openssl command line cryptographic tool
 Homepage: https://www.openssl.org/
+
+Package: patch
+Installed-Size: 168
+Maintainer: @termux
+Architecture: arm
+Version: 2.8.1
+Filename: pool/main/p/patch/patch_2.8.1_arm.deb
+Size: 70980
+MD5sum: 500ba1b7894a85b58a421213f6e1f1df
+SHA1: d6de818bedca07baa811c82921457caa2727ecd5
+SHA256: 48250caee7f219411f7bb23499f228e2a44b77e56c82eb130d2317fd8467bc54
+SHA512: 05465cf629c94b827131f924511a6a03317d9b2f8fb31a0f276863bedd5456e78b3583dbdf693c617fcd87694d998ee71a9f4b6978d5fb2f912d97dcd73babc4
+Description: GNU patch which applies diff files to create patched files
+Homepage: https://savannah.gnu.org/projects/patch/
 
 Package: pcre2
 Installed-Size: 4208
@@ -1110,6 +1401,22 @@ SHA256: 0b1bef6458a897eb8af2fc601236321b59824f9c1f92ac122071bb5a485d3bd6
 SHA512: a8982845773c4d0af9783dfcd5058de5047be1114ceb8ffc52d027bf99c1253714c89e497d77b544745d112e2cb65c027cd395a480696fba057124e835f1b733
 Description: Static libraries for procps
 Homepage: https://gitlab.com/procps-ng/procps
+
+Package: proot
+Installed-Size: 248
+Maintainer: Michal Bednarski @michalbednarski
+Architecture: arm
+Version: 5.1.107.102
+Depends: libandroid-shmem, libtalloc
+Suggests: proot-distro
+Filename: pool/main/p/proot/proot_5.1.107.102_arm.deb
+Size: 95380
+MD5sum: 229fd9a92374e6ba2975df6401a953c6
+SHA1: 70c688f89b3e59c5efc566552b7bc102bc3b7cf8
+SHA256: 06c1c583218b24f6622259cabec03160bbdd993fa4781c7f36355165cdef8f4c
+SHA512: c640dd57873248e691523391e6a4b5ce4a4e71329d194da9b796878d8ccb5ff9ee64d5a2972abef8b13b7447d895157004c4760d920e8976e49654d886c0c264
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Homepage: https://proot-me.github.io/
 
 Package: psmisc
 Essential: yes
@@ -1280,6 +1587,21 @@ SHA512: 8d2671bb2a7a96b19d42cc78b5c321833845c8a1cd22da44f2f4512c16f4cf6923baae79
 Description: Static libraries for termux-exec
 Homepage: https://github.com/termux/termux-exec-package
 
+Package: termux-keyring
+Essential: yes
+Installed-Size: 196
+Maintainer: @termux
+Architecture: all
+Version: 3.14
+Filename: pool/main/t/termux-keyring/termux-keyring_3.14_all.deb
+Size: 45016
+MD5sum: bbe74846e42b1eff849352722ec229a3
+SHA1: 6a108d2250dc48c8d2fab8c37e771b0f242ebca7
+SHA256: 61874bc011775470d3dd6bed3781546fde1498ecd85bfff73bf0b5a50c900f68
+SHA512: 13a54e4977c015d56f659c7fb896925d63c1776b0027b0d2cd5f2faeaec2331dd0065c126e1cd18036358c4620251467406d4bfea63832423a6e76e1f14decf6
+Description: GPG public keys for the official Termux repositories
+Homepage: https://github.com/termux
+
 Package: termux-tools
 Essential: yes
 Installed-Size: 260
@@ -1299,6 +1621,21 @@ SHA256: 32cb2b2bb93d5bc170cf6010c82d7b5cbbc9e526eb732d62a3ed7b81c8428441
 SHA512: 5f4e3e33dcf1e37b139bea60ee8c79ea7ee4e548ad7d2ccf29ef3e64450bb7ccc43fe41b99fcb1b063a811ce13a3e82e657e2fe482d88b4c8760ff7ceeb77fcd
 Description: Basic system tools for Termux
 Homepage: https://termux.dev/
+
+Package: unzip
+Installed-Size: 276
+Maintainer: @termux
+Architecture: arm
+Version: 6.0-10
+Depends: libbz2
+Filename: pool/main/u/unzip/unzip_6.0-10_arm.deb
+Size: 114248
+MD5sum: 47c747e2be45117c637ae499a6fbc47f
+SHA1: e38acb34724ea0fd7aab4ad412a91ce597db5052
+SHA256: 6ced57723b4f1a8d2b47f1724899b584fd1c55b667d6861fe9462063be8c4b89
+SHA512: dfab7240b0a108f7d0847a6dcbd40eaf1139fef1094ed1c6c41c5497419b67ce7b8b08ef542f77e30bf898d69d47799276f8724bbc9323b8ab1a9cff702849e3
+Description: Tools for working with zip files
+Homepage: https://sourceforge.net/projects/infozip/
 
 Package: util-linux
 Essential: yes
