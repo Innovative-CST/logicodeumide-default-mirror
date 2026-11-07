@@ -1753,11 +1753,11 @@ Replaces: libnettle-dev
 Depends: libgmp
 Breaks: libnettle-dev
 Filename: pool/main/libn/libnettle/libnettle_4.0+really3.10.2_i686.deb
-Size: 402720
-MD5sum: d9d7e74a5a75f5e51a2ed24c13e35735
-SHA1: d64bb51c01ebbf8a6122695b797f10a48a0d314c
-SHA256: d309796bf21e89cb7e3db26c197defc42cbccfc6951a40a2af044997c3be91d4
-SHA512: 77d26b6ba0ceaeb82d2ee0da2208c43bcff5d3fefddfa301650830b6b87612b49afa89e53a21fb8b70a65f1b68d374bb96951e1709d6ab121a0622af56087456
+Size: 402276
+MD5sum: 6bb536cb389e2f1685e5080a2ebc7510
+SHA1: c0f6f8e611fbbfb2e9569affb7527eca5f7080ff
+SHA256: 340c113308127fc6688b157af9b434e764327f9e53773ea61add9cfe02d61672
+SHA512: 08826789e2139dc154e6b97e080d4f99d80729e968d4c18b753ead88bb0ae4c64e40e78ce3a7be1e07850c370af8ad494b77dbb5aa5a7360e612c16dfd493ed1
 Description: Cryptographic library that is designed to fit easily in more or less any context
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 
@@ -1768,11 +1768,11 @@ Architecture: i686
 Version: 4.0+really3.10.2
 Depends: libnettle (= 4.0+really3.10.2)
 Filename: pool/main/libn/libnettle-static/libnettle-static_4.0+really3.10.2_i686.deb
-Size: 614780
-MD5sum: ece6bb042576eb0e4fdb7d896a9be7e3
-SHA1: a1fa89365df8b1c6277bf904acc2996766c57a7d
-SHA256: e50553fcdad6787722b40af35b3be1246a849dd363d2a75c78d10cdd66709948
-SHA512: b3f368e06d4c5513e82982b40f030196429bd7f3dc4317f89d3f1cb18af1aa614981c457519580110e716dd8b8ec582ea59b44677d96b8be7bd97680957dc073
+Size: 615392
+MD5sum: c741676d8a1ed4dc9091092a3c5f860f
+SHA1: 9b7b996a2cfb1c28d043ec60694c7b0273b7818b
+SHA256: d1fffac2f08a3068225dcc335107d12cffadb0ef4f79c18e991153245b5b863d
+SHA512: 8ac70259cd25d58932a99aaca7b7593a36717830f4c7bf26e4fa94bac874c8e29e17fb5210c5bc3b0973c9db6f1fd66bcf48f97dc5849605f689164483634095
 Description: Static libraries for libnettle
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 
@@ -2780,11 +2780,11 @@ Architecture: i686
 Version: 4.0+really3.10.2
 Depends: libnettle (= 4.0+really3.10.2)
 Filename: pool/main/n/nettle/nettle_4.0+really3.10.2_i686.deb
-Size: 18688
-MD5sum: 063a7c68175af012131ee9852d45a3f0
-SHA1: e70a57e612ef692799b06405f2897f2b580cbae5
-SHA256: 200a0a200940deee3a5dd61efb3f16657060d0b5b5c3f233803aa94bfea69513
-SHA512: 0854cd63bcca8e9a5d58a6457299e7d56a3f7de9f9483679b851cfa61825274838d074fb3072c639fb08099133e4295cb2168c3029ff445467ecf8ff481933f5
+Size: 18712
+MD5sum: 0fe1bb20b7e7dec9b56b0c82aa600ea1
+SHA1: 8011f9be26f2be55da984f8999b320966d6fab1a
+SHA256: 405f490849dec0e9fae4b22403247c60f85e8f3f506725f940488a94685cc1fb
+SHA512: 90875465975116a295306624149deab3e09ece7baf3fb40e4ade795bf7a759e44ebd6342dd0920a19a4beb2f3b57da311785985ae66ea96efdd8982f5546802f
 Description: Low level cryptographic tools
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 
